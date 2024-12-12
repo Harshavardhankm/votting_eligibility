@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votting</title>
+    <style>
+        .container{
+            box-shadow: 0px 0px 11px 6px black;
+            width: 75%;
+            height: 50vh;
+            padding: 30px;
+            text-align: center;
+            margin: auto auto;
+            margin-top: 20vh;
+            border-radius: 20px;
+        }
+        input{
+            margin-top: 70px;
+            border-radius: 20px;
+            height: 5vh;
+            width: 20vw;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div class="container">
+            <input id="vot_inp" type="number" placeholder="Enter Your age !" oninput="checkAge()">
+            <h3 id="res"></h3>
+        </div>
+    </form>
+    <script src="vottingjs.js"></script>
+</body>
+</html>
